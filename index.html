@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="registro">
+        <form method="post" action="#">
+            <h4>Registro</h4>
+            <input class="campos" minlength="1" maxlength="50" type="text" name="nombres" id="nombres"
+                placeholder="Ingrese su Nombre" required="" pattern="[a-z, A-Z]+">
+            <input class="campos" minlength="1" maxlength="80" type="text" name="apellidos" id="apellidos"
+                placeholder="Ingrese su Apellido" required="" pattern="[a-z, A-Z]+">
+            <input class="campos" minlength="1" maxlength="100" type="email" name="correo" id="correo"
+                placeholder="Ingrese su correo" required="">
+            <input class="campos" minlength="1" maxlength="20" type="numero" name="Telefono" id="Telefono"
+                placeholder="Ingrese su Telefono" required="" pattern="[0-9]+">
+                <h1>Ingresa tu fecha de nacimiento </h1>
+            <input class="campos" type="date" value="sd" id="fecha" name="fecha_nacimiento" value=""
+                placeholder="Ingrese su fecha de nacimiento" required>
+            <input class="campos" type="password" id="password" name="clave" placeholder="Ingrese una contraseña"
+                required>
+            <input class="campos" type="password" id="password" name="clave" placeholder="Confirme su contraseña"
+                required>
+            <br>
+            <p>Estoy de acuerdo con los<a href="#">Terminos y condiciones</a></p>
+
+            <div class="cuenta"><p><a href="#">Ya tengo una cuenta</a></p></div>
+            <button>Registrarme</button>
+        </form>
+    </div>
+</body>
+
+</html>
