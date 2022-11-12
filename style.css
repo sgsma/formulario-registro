@@ -1,19 +1,21 @@
-* {
-    margin: 0;
+body{
+background: scroll;
+background-color: whitesmoke
+}
+*{
+    margin: 100;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #4EB9EF;
 }
 
 .registro {
-    width: 400px;
-    background-color: #EBFEFF;
-    padding: 1px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 1px;
+    width: 550px;
+    background-color:rgba(70, 142, 170, 0.651);
+    padding: 10px;
+    margin: 1100px;
+    margin-top: 1px;
+    border-radius: 18px;
     font-family: 'calibri';
-
     color: white;
 }
 
@@ -67,4 +69,21 @@ h1{
 font-family: 'Arial';
     font-size: 15px;
 padding: 100px;
+}
+
+label{
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+p{
+
+text-align: center;
+
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
 }
